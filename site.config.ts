@@ -9,17 +9,17 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Muhammad Okki',
+  domain: 'graceda.my.id',
+  author: 'Muhammad Okki',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Muhammad Okki\'s personal website.',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'muhammadokki_',
+  github: 'lemkova',
+  linkedin: 'muhammadokki',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -50,16 +50,12 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  //navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Portfolio',
+      pageId: 'ac7d5f2b1b7346258f3e2c014ad59733'
+    },
+  ]
 })
